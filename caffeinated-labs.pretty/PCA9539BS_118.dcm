@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP PCA9539BS,118
+D 16-bit I2C-bus and SMBus low power I/O port with interrupt  and reset
+K
+F http://www.nxp.com/docs/en/data-sheet/PCA9539_PCA9539R.pdf
+$ENDCMP
+#
+#End Doc Library
