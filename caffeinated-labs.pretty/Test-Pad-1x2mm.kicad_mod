@@ -1,0 +1,18 @@
+(footprint "Test-Pad-1x2mm" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 0)
+  (attr smd exclude_from_pos_files exclude_from_bom)
+  (fp_text reference "REF**" (at 0 -0.5 unlocked) (layer "F.SilkS") hide
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp d6b84d5c-0a4d-4749-88dc-83db194c1e12)
+  )
+  (fp_text value "Test-Pad-1x2mm" (at 0 1 unlocked) (layer "F.Fab") hide
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp f026f308-4007-40ab-8fd4-5c64e09c7d26)
+  )
+  (fp_text user "Name" (at 1.2 0) (layer "F.SilkS")
+    (effects (font (size 1 1) (thickness 0.1)) (justify left))
+    (tstamp d90862d0-ab25-414a-98b1-b49506663e67)
+  )
+  (pad "1" smd roundrect (at 0 0) (size 2 1) (layers "F.Cu" "F.Mask") (roundrect_rratio 0.2) (tstamp ae5f7e8d-a055-41da-99d1-8ca9c1587baf))
+)
