@@ -17,10 +17,6 @@
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp eb2e186b-aa84-4855-95d4-74ddc114831c)
   )
-  (fp_rect (start -5.08 -1.75) (end 0 1.75) (layer "F.Cu") (width 0) (fill solid) (tstamp 3bc40cc4-7f3c-4cde-b410-30ea7d7ff673))
-  (fp_rect (start -5.08 -1.75) (end 0 1.75) (layer "B.Cu") (width 0) (fill solid) (tstamp 206ce7a1-4973-413d-a8c8-e5a70f6f4f8b))
-  (fp_rect (start -5.08 -1.75) (end 0 1.75) (layer "B.Mask") (width 0) (fill solid) (tstamp af389d6c-c555-45fa-86f0-e89eae686f27))
-  (fp_rect (start -5.08 -1.75) (end 0 1.75) (layer "F.Mask") (width 0) (fill solid) (tstamp dc92e461-6b14-402e-bbac-092073f197c5))
   (fp_line (start 0 -1.75) (end 0 1.75) (layer "Edge.Cuts") (width 0.1) (tstamp 334a9d92-39fc-44b4-a4fd-fee8e44a1393))
   (pad "1" thru_hole custom (at 0 0) (size 3.5 3.5) (drill 1) (layers *.Cu *.Mask)
     (options (clearance outline) (anchor circle))
@@ -29,5 +25,11 @@
   (pad "1" thru_hole custom (at -5.08 0) (size 3.5 3.5) (drill 2) (layers *.Cu *.Mask) (remove_unused_layers) (keep_end_layers)
     (options (clearance outline) (anchor circle))
     (primitives
-    ) (tstamp f16ba407-a8d2-4720-b871-641f7dee0d9b))
+      (gr_poly (pts
+          (xy 0 -1.75)
+          (xy 0 1.75)
+          (xy 5.08 1.75)
+          (xy 5.08 -1.75)
+        ) (width 0) (fill yes))
+    ) (tstamp f348fc35-63b1-42db-bfca-cf50cb4e85b5))
 )
